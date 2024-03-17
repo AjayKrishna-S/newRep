@@ -1,0 +1,29 @@
+
+.images {
+    position: relative;
+    width: 1000px;
+
+}
+
+.images img {
+    position: relative;
+    width: 1000px;
+}
+
+.dots{
+    
+    position: absolute;
+    left: calc(50% - 30px);
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    z-index: 55;
+}
+
+.dot{
+    background-color: lightgray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
