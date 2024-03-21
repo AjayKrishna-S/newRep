@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import './nav.css'
-
-  
+import './nav.css';
 
 const Nav = () => {
 
@@ -11,82 +9,53 @@ const Nav = () => {
     <div className='nav'>
         <ul className='navWrapper'>
             <li>
-                <a href="index.html">Home</a>
+                <Link to='/'>Home</Link>
             </li>
 
             <li >
-              <a href="#">About Us</a>
-
+              <Link to='/'>About Us</Link>
+              
               <div className='dropdown' >
-                <Link to='/chairman'>Chairman</Link>
-                <Link to='/governingcouncil'>Governing Council</Link>
-                <Link to='/aboutcollege'>About College</Link>
-                <Link to='/director'>Director</Link>
-                <Link to='/aboutus'>Trustees</Link>
-                <Link to='/aboutus'>Advisor</Link>
+                <Link to='/chairman' id='ddLink'>Chairman</Link>
+                <Link to='/governingcouncil' id='ddLink'>Governing Council</Link>
+                <Link to='/aboutcollege' id='ddLink'>About College</Link>
+                <Link to='/director' id='ddLink'>Director</Link>
+                <Link to='/aboutus' id='ddLink'>Trustees</Link>
+                <Link to='/aboutus' id='ddLink'>Advisor</Link>
               </div>
             </li>
 
             <li >
-              <a href="#">Academic</a>
-
+              <Link to='/'>Academic</Link>
               <div className='dropdown'>
-                <a href="program.html">Program Structure</a>
-                <a href="#">Curriculum &amp; Electives</a>
-                <a href="Curriculumadministration.html">Curriculam &amp; Admin.</a>
+              <Link to='/programstructure' id='ddLink'>Program Structure</Link>
+              <Link to='/curriculumandelectives' id='ddLink'>Curriculum &amp; Electives</Link>
+              <Link to='/curriculamandadmin' id='ddLink'>Curriculam &amp; Admin.</Link>
               </div>
               
             </li>
 
             <li>
-              <a href="Guest.html">Guest Lectures</a>
-
-              <div className='dropdown' >
-                <a href="#">Chairman</a>
-                <a href="#">Governing Council</a>
-                <a href="#">About College</a>
-                <a href="#">Director</a>
-                <a href="#">Trustees</a>
-                <a href="#">Advisor</a>
-              </div>
-
+              <Link to='/guestlectures'>Guest Lectures</Link>
             </li>
 
             <li>
-              <a href="admission.html">Admission</a>
-
-              <div className='dropdown' >
-                <a href="#">Chairman</a>
-                <a href="#">Governing Council</a>
-                <a href="#">About College About College</a>
-                <a href="#">Director About College</a>
-                <a href="#">Trustees About College</a>
-                <a href="#">Advisor</a>
-              </div>
-
+              <Link to='/admission'>Admission</Link>
             </li>
 
             <li>
-              <a href="#">Facilities</a>
-
-              <div className="dropdown"></div>
+              <Link to='/facilities'>Facilities</Link>
             </li>
 
             <li>
-              <a href="#">Gallery</a>
-              <div className="dropdown"></div>
+              <Link to='/gallery'>Gallery</Link>
             </li>
             <li >
-              <a href="#">HASB in Media</a>
-
-              <div className="dropdown"></div>
+              <Link to='/hasbinmedia'>HASB in Media</Link>
 
             </li>
             <li >
-              <a href="#">Contact us</a>
-
-              <div className="dropdown"></div>
-
+              <Link to='/contactus'>Contact us</Link>
             </li>
         </ul>
     </div>

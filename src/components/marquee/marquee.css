@@ -1,0 +1,20 @@
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee-animation 15s linear infinite;
+  }
+  
+  .marquee-img {
+    height: 20px; /* Adjust height as needed */
+    margin-right: 10px; /* Add spacing between image and text */
+  }
+  
+  @keyframes marquee-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

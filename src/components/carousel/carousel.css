@@ -3,20 +3,22 @@
 }
 .images {
     position: relative;
-    width: 1000px;
+    width: 1024px;
 
 }
 
 .images img {
     position: relative;
-    width: 1000px;
+    width: 1024px;
 }
 
 .dots{
     
     position: absolute;
-    left: calc(50% - 30px);
+    left: 0;
+    right: 0;
     bottom: -30px;
+    margin: auto;
     display: flex;
     justify-content: center;
     gap:5px;

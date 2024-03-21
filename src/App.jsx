@@ -10,6 +10,7 @@ import Chairman from './pages/Chairman/Chairman.jsx';
 import Governing from './pages/governing/Governing.jsx';
 import AboutCollege from './pages/aboutCollege/AboutCollege.jsx';
 import Director from './pages/director/Director.jsx';
+import Marquee from './components/marquee/Marquee.jsx';
 
 function App() {
   
@@ -19,7 +20,7 @@ function App() {
         <Header />
         <Nav />
         <Carousel />
-          
+        <Marquee />
         <div style={{ display: 'flex' , justifyContent: 'space-between' }}>
           <Outlet />
         </div>

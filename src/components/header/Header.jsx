@@ -1,4 +1,4 @@
-import React from 'react';
+import './header.css';
 import hasb from '../../assets/images/hasb.jpg';
 
 const Header = () => {
