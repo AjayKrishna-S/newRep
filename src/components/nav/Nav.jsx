@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './nav.css'
 
   
@@ -17,12 +18,12 @@ const Nav = () => {
               <a href="#">About Us</a>
 
               <div className='dropdown' >
-                <a href="#">Chairman</a>
-                <a href="#">Governing Council</a>
-                <a href="#">About College</a>
-                <a href="#">Director</a>
-                <a href="#">Trustees</a>
-                <a href="#">Advisor</a>
+                <Link to='/chairman'>Chairman</Link>
+                <Link to='/governingcouncil'>Governing Council</Link>
+                <Link to='/aboutcollege'>About College</Link>
+                <Link to='/director'>Director</Link>
+                <Link to='/aboutus'>Trustees</Link>
+                <Link to='/aboutus'>Advisor</Link>
               </div>
             </li>
 

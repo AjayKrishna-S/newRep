@@ -1,0 +1,47 @@
+/* rightBar.css */
+
+.RightBar {
+    border: 1px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding for spacing */
+    width: 300px;
+}
+  
+  .title {
+    background-color:#f39f49;
+    text-align: center; /* Center the title */
+  }
+  
+  .image-container {
+    text-align: center; /* Center the image */
+    margin-bottom: 20px; /* Add margin for spacing */
+  }
+  
+  .links-container {
+    display: grid; /* Use grid layout for links */
+    grid-template-columns: repeat(1, 1fr); /* Display one column */
+    gap: 20px; /* Add gap between items */
+  }
+  
+  .links-container a {
+    display: block; /* Display links as block elements */
+    text-align: center; /* Center the links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .links-container a img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio of images */
+    border: 1px solid #efeaea; /* Add border to images */
+    padding: 5px; /* Add padding for spacing */
+  }
+  
+  /* Style for iframe */
+  iframe {
+    display: block; /* Make sure the iframe is a block element */
+    margin: 0 auto; /* Center the iframe horizontally */
+    border: 20px solid transparent; /* Add equal transparent border on all sides */
+  }
+  
+.RightBar .title{
+    background-color: orange;
+  }

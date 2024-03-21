@@ -1,0 +1,27 @@
+#footer {
+    width: 100%;
+    background-color: #015B7E;
+    margin: 10px auto;
+    border-top:solid 5px #ea8503;
+    height: 90px;
+
+}
+#footer p {
+    margin: 0;
+    line-height: normal;
+}
+#footer p a {
+    color:white;
+    line-height:normal;
+    text-align:right;
+}
+
+#legal {
+    float: left;
+    padding: 10px 0 10px 20px;
+    color: #ffffff;
+    text-align: justify;
+}
+#links {
+    text-align: right;
+}

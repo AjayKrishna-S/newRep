@@ -1,0 +1,52 @@
+#leftbar {
+    text-align: left;
+    flex: 2;
+}
+h2{
+    height: 50px;
+}
+
+/* Sidebar.css */
+
+.sidebar {
+    float: left;
+    width: 250px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    border: gray;
+    padding: 0%;
+    margin-bottom: 10px;
+    background-color: rgb(215, 220, 224);
+    
+  }
+  
+  .marquee {
+    font-weight: normal;
+    height: 130px;
+  }
+  
+  .NLink {
+    list-style-type: none;
+  }
+  
+  .more {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  .new {
+    color: #FF9900;
+  }
+  
+  .image {
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
