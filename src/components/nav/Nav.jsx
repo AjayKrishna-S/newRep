@@ -20,7 +20,7 @@ const Nav = () => {
                 <Link to='/governingcouncil' id='ddLink'>Governing Council</Link>
                 <Link to='/aboutcollege' id='ddLink'>About College</Link>
                 <Link to='/director' id='ddLink'>Director</Link>
-                <Link to='/aboutus' id='ddLink'>Trustees</Link>
+                <Link to='/trustees' id='ddLink'>Trustees</Link>
                 <Link to='/aboutus' id='ddLink'>Advisor</Link>
               </div>
             </li>
@@ -30,7 +30,7 @@ const Nav = () => {
               <div className='dropdown'>
               <Link to='/programstructure' id='ddLink'>Program Structure</Link>
               <Link to='/curriculumandelectives' id='ddLink'>Curriculum &amp; Electives</Link>
-              <Link to='/curriculamandadmin' id='ddLink'>Curriculam &amp; Admin.</Link>
+              <Link to='/curriculamandadmin' id='ddLink'>Curriculam &amp; Admin</Link>
               </div>
               
             </li>
