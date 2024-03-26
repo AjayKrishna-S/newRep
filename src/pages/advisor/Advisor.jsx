@@ -1,8 +1,11 @@
+import AboutUs from '../aboutUs/AboutUs'
 import './advisor.css'
 
 const Advisor = () => {
   return (
-    <div>Advisor</div>
+    <div className='container'>
+        <AboutUs />
+    </div>
   )
 }
 

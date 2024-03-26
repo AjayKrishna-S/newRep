@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+}
+.leftContainer{
+    flex:3;
+}
+.curriculamAndElectives{
+    width: 100%;
+    flex: 9;
+}

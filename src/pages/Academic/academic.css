@@ -1,0 +1,25 @@
+.academic{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.academic ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.academic ul li{
+ padding: 10px;
+ text-wrap: nowrap;
+ background: linear-gradient(to bottom right, #24437A ,#96A1B6);
+}
+
+
+#academicLink{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}

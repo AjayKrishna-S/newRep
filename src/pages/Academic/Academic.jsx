@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 const Academic = () => {
   return (
     <div className='academic'>
-            <Link to='/programstructure' id='ddLink'>Program Structure</Link>
-            <Link to='/curriculumandelectives' id='ddLink'>Curriculum &amp; Electives</Link>
-            <Link to='/curriculamandadmin' id='ddLink'>Curriculam &amp; Admin</Link>
+        <ul>
+          <li><Link to='/programstructure' id='academicLink'>Program Structure</Link></li>
+          <li><Link to='/curriculumandelectives' id='academicLink'>Curriculum &amp; Electives</Link></li>
+          <li><Link to='/curriculamandadmin' id='academicLink'>Curriculam &amp; Admin</Link></li>
+        </ul>
     </div>
   )
 }

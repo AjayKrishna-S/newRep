@@ -1,21 +1,17 @@
 .aboutUs{
     display: flex;
-    background-color: blue;
     margin: 0;
     padding: 0;
     width: 100%;
 }
-.aboutLeftSec{
-    margin: 0;  
-}
 
-.aboutLeftSec ul{
+.aboutUs ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.aboutLeftSec ul li{
+.aboutUs ul li{
  padding: 10px;
  text-wrap: nowrap;
  background: linear-gradient(to bottom right, #24437A ,#96A1B6);

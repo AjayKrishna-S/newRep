@@ -1,8 +1,11 @@
+import AboutUs from '../aboutUs/AboutUs'
 import './trustees.css'
 
 const Trustees = () => {
   return (
-    <div>Trustees</div>
+    <div className='container'>
+        <AboutUs />
+    </div>
   )
 }
 
